@@ -17,31 +17,31 @@ import { CHAT_ROUTES } from "@/constant/route";
 import { getMessages } from "@/actions/conversation";
 import { useUserStore } from "@/store/user";
 
-const DUMMY_MESSAGE = [
-  {
-    id: '1',
-    content: '더미데이터1',
-    role: 'user'
-  },
-  {
-    id: '2',
-    content: '더미데이터2',
-    role: 'assistant'
-  },
-  {
-    id: '3',
-    content: '더미데이터3',
-    role: 'user',
-  },
-  {
-    id: '4',
-    content: DUMMY_LOGN_TEXT,
-    role: 'assistant'
-  }
-]
+// const DUMMY_MESSAGE = [
+//   {
+//     id: '1',
+//     content: '더미데이터1',
+//     role: 'user'
+//   },
+//   {
+//     id: '2',
+//     content: '더미데이터2',
+//     role: 'assistant'
+//   },
+//   {
+//     id: '3',
+//     content: '더미데이터3',
+//     role: 'user',
+//   },
+//   {
+//     id: '4',
+//     content: DUMMY_LOGN_TEXT,
+//     role: 'assistant'
+//   }
+// ]
 
 export function Chat() {
-  const [value, setValue] = useState('');
+  // const [value, setValue] = useState('');
   const divRef = useRef<HTMLDivElement>(null);
   const model = useModelStore((state) => state.model);
 

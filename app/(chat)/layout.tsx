@@ -1,7 +1,7 @@
 import { Header } from "@/components/chat/Header";
 import { Sidebar } from "@/components/chat/Sidebar";
 import { UserProvider } from "@/components/chat/UserProvider";
-import Link from "next/link";
+// import Link from "next/link";
 import { ReactNode } from "react";
 
 export default function ChatLayout({ children }: { children: ReactNode }) {

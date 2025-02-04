@@ -35,7 +35,7 @@ export function SidebarItem({ item }: Props) {
   const params = useParams<{ id: string }>();
   const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
-  const { open, openModal, config, closeModal } = useModalStore();
+  // const { open, openModal, config, closeModal } = useModalStore();
 
   const handleMenu = () => {
     setIsMenuOpen((prev) => !prev);

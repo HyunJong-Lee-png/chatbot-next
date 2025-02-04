@@ -32,8 +32,7 @@ export function Modal({ conversation: { current, thisCon } }: Props) {
       console.error(e);
       toast.error('삭제에 실패했습니다');
     }
-    current === thisCon ? router.push('/') :
-      !current ? router.push('/') : router.push(`${CHAT_ROUTES.CONVERSATIONS}/${current}`)
+    current === thisCon ? router.push('/') : !current ? router.push('/') : router.push(`${CHAT_ROUTES.CONVERSATIONS}/${current}`)
 
   }
 
