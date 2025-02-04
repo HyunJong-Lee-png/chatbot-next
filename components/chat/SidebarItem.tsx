@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 import { useOpenStore } from "@/store/sheet";
 import { deleteConversation, updateConversation } from "@/actions/conversation";
 import toast from "react-hot-toast";
-import { useModalStore } from "@/store/modal";
+// import { useModalStore } from "@/store/modal";
 // import { Modal } from "../modal/Modal";
 import { CHAT_ROUTES } from "@/constant/route";
 
@@ -59,6 +59,7 @@ export function SidebarItem({ item }: Props) {
       try {
         await updateConversation(params.id, newLabel || '');
       } catch (e) {
+        console.log(e)
         toast.error('이름 수정 실패~')
       }
     }
@@ -78,8 +79,15 @@ export function SidebarItem({ item }: Props) {
       console.error(e);
       toast.error('삭제에 실패했습니다');
     }
-    params.id === id ? router.push('/') :
-      !params.id ? router.push('/') : router.push(`${CHAT_ROUTES.CONVERSATIONS}/${params.id}`)
+    // params.id === id ? router.push('/') :
+    //  !params.id ? router.push('/') : router.push(`${CHAT_ROUTES.CONVERSATIONS}/${params.id}`)
+    if (params.id === id) {
+      router.push('/');
+    } else if (!params.id) {
+      router.push('/');
+    } else {
+      router.push(`${CHAT_ROUTES.CONVERSATIONS}/${params.id}`);
+    }
 
   }
 

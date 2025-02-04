@@ -7,7 +7,7 @@ import { Message } from "./Message";
 import { Button } from "../ui/button";
 import { ArrowUp } from "lucide-react";
 // import TextareaAutosize from 'react-textarea-autosize';
-import { DUMMY_LOGN_TEXT } from "@/constant/dummy";
+// import { DUMMY_LOGN_TEXT } from "@/constant/dummy";
 import { useChat } from 'ai/react'
 import { useModelStore } from "@/store/model";
 import { useParams, useRouter } from "next/navigation";
