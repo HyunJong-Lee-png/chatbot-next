@@ -14,7 +14,7 @@ import { useOpenStore } from "@/store/sheet";
 import { deleteConversation, updateConversation } from "@/actions/conversation";
 import toast from "react-hot-toast";
 import { useModalStore } from "@/store/modal";
-import { Modal } from "../modal/Modal";
+// import { Modal } from "../modal/Modal";
 import { CHAT_ROUTES } from "@/constant/route";
 
 type Props = {

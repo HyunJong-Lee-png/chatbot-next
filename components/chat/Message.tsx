@@ -1,6 +1,6 @@
-import { verifySession } from "@/actions/sessions";
+// import { verifySession } from "@/actions/sessions";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 
 type Props = {

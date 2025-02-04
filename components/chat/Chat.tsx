@@ -1,18 +1,18 @@
 'use client'
 
-import { KeyboardEvent, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { AutoResizingTextarea } from "./AutoResizingTextarea";
 import { Empty } from "./Empty";
 import { Message } from "./Message";
 import { Button } from "../ui/button";
 import { ArrowUp } from "lucide-react";
-import TextareaAutosize from 'react-textarea-autosize';
+// import TextareaAutosize from 'react-textarea-autosize';
 import { DUMMY_LOGN_TEXT } from "@/constant/dummy";
 import { useChat } from 'ai/react'
 import { useModelStore } from "@/store/model";
 import { useParams, useRouter } from "next/navigation";
 import { addMessages, createConversation } from "@/actions/conversation";
-import { BASE_URL, CHAT_ROUTES } from "@/constant/route";
+import { CHAT_ROUTES } from "@/constant/route";
 // import { useMessageStore } from "@/store/message";
 import { getMessages } from "@/actions/conversation";
 import { useUserStore } from "@/store/user";

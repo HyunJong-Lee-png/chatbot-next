@@ -1,5 +1,5 @@
 'use client'
-import { deleteSession, verifySession } from "@/actions/sessions";
+import { deleteSession } from "@/actions/sessions";
 import { Button } from "../ui/button";
 
 export function LogoutButton() {

@@ -2,7 +2,6 @@ import { ReactNode } from "react";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,

@@ -5,7 +5,7 @@ import { Logo } from "./Logo";
 import { MessageSquare, Plus } from 'lucide-react';
 import { SidebarItem } from "./SidebarItem";
 import { LogoutButton } from "./LogoutButton";
-import { useConversationStore } from "@/store/conversation";
+// import { useConversationStore } from "@/store/conversation";
 import { getConversations } from "@/actions/conversation";
 
 const DUMMY_ITEMS =
