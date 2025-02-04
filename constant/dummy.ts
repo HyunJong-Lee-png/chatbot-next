@@ -1,0 +1,13 @@
+export const DUMMY_LOGN_TEXT = `What is an abstract?
+An abstract is an important section of your dissertation. It gives an overall summary of your research. Therefore, it is important to understand the factors necessary to write a good dissertation abstract. There are three different ways to write a dissertation abstract. They are:
+
+Descriptive Abstract: A descriptive abstract is like an outline of your original research. It presents all ideas discussed in your dissertation and summarises your methodology. However, it does not summarise results or conclusions of your research.
+Informative Abstract: An informative abstract is a shortened form of your dissertation. It summarises all your arguments that you use in your dissertation. It gives readers an overview about objectives, methods, results and conclusions of your research.
+Critical Abstract: A critical abstract is a critical analysis of a dissertation. The abstractor assesses a research and compares it with other work on same subject. It is a condensed critical analysis.
+How to Write an abstract?
+Writing an abstract can be a challenging task since you are required to provide a summary of your whole dissertation within short word constraint. Therefore, you first need to first draw its outline before writing an abstract of your dissertation. This will help you write it effectively and speedily.
+Following are some important tips that will help you write a good abstract:
+
+Show Purpose: Firstly, you need to describe the purpose of your research. You need to show what you want to prove or disprove through your research. You need to explain the purpose in first two lines of your abstract. Also, you have to show how your research is unique and explain how it will contribute in existing research.
+Explain your Research: You need to describe the methodology of your research in abstract. Show highlights of your research. Describe your research as qualitative or quantitative. Avoid discussing things not directly related with your research.
+Be Succinct: As mentioned above, your abstract needs to be written within specific word constraint usually no more than 2 pages and 400-600 words. You need to cover all important aspects of your research within this word limit. So, you should make it concise and to the point. In addition, you need to be direct and clear while writing abstract of your dissertation and avoid cluttering of information. Remember to use terms and words from your dissertation; it will help readers easily understand your dissertation.`
